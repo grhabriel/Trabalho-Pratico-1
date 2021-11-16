@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+html,body{
+    min-height: 100%;
+}
+p{
+    font-size: large;   
+}
+
+body{
+    text-align: center;
+    background-color: #9DB4C0;
+
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+main,article{
+    background-color: #EEF4ED;
+    /*background-color: white;*/
+    border-radius: 15px;
+    padding: 3%;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.398);
+}
+article{
+    margin: 2.5%;
+}
+h1{
+    font-size: 270%;
+}
+
+
+footer{
+    font-family: 'Kaushan Script', cursive; /* fonte importada */
+}
+
+
+main{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 12%;
+    margin-left: 12%;
+}
+article{
+    text-align: justify;
+    padding: 30px;
+}
+
+main{
+    clear: left;
+}
+
+h1{
+    margin-top: 0;
+}
+
+header,footer{
+    background-color:#9DB4C0;
+    margin: 0;
+    margin-right: 0%;
+    padding-top: 30px;
+    margin-left: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 7%;
+
+}
+
+footer{
+    color: wheat;
+    font-style: italic;   
+}
+h2{
+    text-align: center;
+}
+
+img{
+    width: 70%;
+    height: 80%;
+    border-radius: 25px;
+    box-shadow: 6px 10px 15px rgba(0, 0, 0, 0.398);
+}
+
+.tipo, .cresce,.grafico post{
+    display: flex;
+    flex-direction: row;
+}
+.tipo img,
+.cresce img{
+    width: 85%;
+    height: 200px;
+}
+.grafico img{
+    width: 45%;
+    height: 300px;
+    flex-direction: row;
+}
+.cresce img,.grafico img{
+    justify-content: space-between;
+}
+.tipo post,
+.cresce post{
+    padding: 5px;
+    margin: 2px;
+}
+.tipo post,
+.cresce post{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+img,iframe{
+    display: block;
+    margin: auto;
+}
+
+
+nav ul{
+    position: absolute;
+    left: -400%;
+}
+
+
+
+nav ul{
+    margin: 1%;
+    padding: 0.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a:hover{
+    background-color: slategrey;
+    transform: scale(1.15);
+}
+
+nav a{
+    color: black;
+    background-color: #EEF4ED;
+    padding: 15px;
+    width: 15%;
+    margin: 0.5%;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.clicado {
+    position: sticky;
+    left: 0px;
+}
+
+
+nav h3:hover{
+    background-color: slategrey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+button{
+    padding: 15px;
+}
+
+
+/* é aqui que mexe no botão, no h3's  */
+h3{
+    padding: 10px;
+    cursor: pointer;
+    border: 3px solid black;
+    margin-right: 30%;
+    margin-left: 30%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+ h3:hover{
+    background-color: slategrey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.fonte{
+    font-family: 'Kaushan Script', cursive;
+}

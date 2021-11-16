@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+}
+
+main p{
+    text-align: justify;
+}
+iframe{
+    width: 500px;
+    height: 300px;
+    margin-top: 10px;
+}
+li{
+    text-align: justify;
+}
+img{
+    box-shadow: none;
+    padding: 10px;
+    border: 3px black solid;
+
+}
+
+div,article{
+    background-color: #EEF4ED;
+    border-radius: 15px;
+    padding: 3%;
+    margin: auto;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.398);
+    margin: 3%;
+}
+
+.correto{
+    color: green;
+}
+.errado{
+    color: red;
+}
+#resposta1,
+#resposta2{
+    text-align: center;
+}
+span{
+    display: block;
+}
+button{
+    cursor: pointer;
+}

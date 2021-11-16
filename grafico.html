@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="icone.png">
+        <title>Grafico Dinamico</title>
+    </head>
+    <body>
+        <header>
+            <h1>Gráfico & Raiz</h1>
+            <h3>Menu</h3>
+            <nav>
+                
+                <ul>
+                    <a href="index.html">Página Principal</a>
+                    <a href="enem.html">Questões</a>
+                    <a href="referencias.html">Créditos e Referências</a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <p>
+                Escreva os coeficientes da equação para ser 
+                calculado a raiz da função e logo depois observe o 
+                esboço do gráfico formado.
+            </p>
+            <section>
+                <p>
+                    Digite o coeficiente A:
+                    <input type="number" name="" id="coeficiente-a" value="1">
+                </p>
+                <p>
+                    Digite o coeficiente B:
+                    <input type="number" name="" id="coeficiente-b" value="1">
+                </p>
+                <p><button>Submeter</button></p>
+                <div id="resposta">
+                    <p></p>
+                </div>
+            </section>
+            
+
+
+            <canvas id="myChart"></canvas>
+        </main>
+
+
+        <footer>
+            <p> &copy Todos os direitos reservados</p>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"></script>
+        <script src="grafico_raiz.js"></script>
+        <script src="menu.js"></script>
+    </body>
+</html>
